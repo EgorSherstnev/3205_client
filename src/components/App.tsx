@@ -38,12 +38,6 @@ function App() {
             <SearchUser fetchUsers = {fetchUsers}/>
             <UsersList users = {users}/>
         </div>
-        <button 
-            className='comment__button button'
-            onClick={getAll }
-         >
-            Search
-         </button>
     </div>
   );
 }
