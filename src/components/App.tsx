@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../css/style.css"
 import SearchUser from '../partials/searchUser';
 import UsersList from '../partials/UsersList';
 import { IUserData } from '../models/IUserData';
